@@ -1,5 +1,5 @@
 // Question no 1
-var userName = [];
+// var userName = [];
 
 
 // Question no 3
@@ -46,31 +46,19 @@ var userName = [];
 // document.write("</ol>");
 
 
-// //  Question no 8
-// //Array to store student names
-// var studentName=['waqas','sameer','tahir'];
+//  Question no 8
 
-// //Array to store student scores
-// var studentScore=[483,277,162];
+// var studentName = ["Sameer","Waqas","Tahir"];
 
-// //Total marks for each student
-// var totalMarksEachStudent=500;
+// var studentScore = [456,499,450];
 
-// //Display scores and percentage for each student
-// var studentName1=studentName[0];
-// var studentScore1=studentScore[0];
-// var percentage=(studentScore1/500)*100;
-// console.log("Score of Waqas is: "+studentScore1+" and Percentage: "+percentage+"%");
+// percentageSameer = studentScore[0]/500*100;
+// percentageWaqas = studentScore[1]/500*100;
+// percentageTahir = studentScore[2]/500*100;
 
-// var studentName2=studentName[1];
-// var studentScore2=studentScore[1];
-// var percentage=(studentScore2/500)*100;
-// console.log("Score of Sameer is: "+studentScore2+" and Percentage: "+percentage+"%");
-
-// var studentName3=studentName[2];
-// var studentScore3=studentScore[2];
-// var percentage=(studentScore3/500)*100;
-// console.log("Score of Tahir is: "+studentScore3+" and Percentage: "+percentage+"%");
+// document.write(`Score of ${studentName[0]} is ${studentScore[0]}. Percentage: ${percentageSameer} % <br>`);
+// document.write(`Score of ${studentName[1]} is ${studentScore[1]}. Percentage: ${percentageWaqas} % <br>`);
+// document.write(`Score of ${studentName[2]} is ${studentScore[2]}. Percentage: ${percentageTahir} % <br>`);
 
 
 // Question no 9
@@ -78,19 +66,25 @@ var userName = [];
 
 // var colorToAddAtBeginning = prompt("Enter a color to add to the beginning");
 // color.unshift(colorToAddAtBeginning);
+// document.write(color+"<br>");
 
 // var colorToAddAtEnd = prompt("Enter a color to add to the End");
 // color.push(colorToAddAtEnd);
+// document.write(color+"<br>");
 
 // color.unshift('orange','red');
+// document.write(color+"<br>");
 
 // color.shift();
+// document.write(color+"<br>");
 
 // color.pop();
+// document.write(color+"<br>");
 
 // var indexToAddColor = prompt("Enter your index where you want to add a color");
 // var colorToAddAtIndex = prompt("Enter your color you want to add");
-// color.splice(indexToAddColor,0,colorToAddAtIndex)
+// color.splice(indexToAddColor,0,colorToAddAtIndex);
+// document.write(color+"<br>");
 
 // var indexToDeltColor = prompt("Enter your index from where you want to delt a color");
 // var numberOfColorsToDelt = prompt("Enter how many colors you want to delt");
