@@ -114,17 +114,47 @@
 // console.log("String: "+singleString);
 
 
+//Question no 13
+// var fifo = [];
+
+// fifo.push("keyboard");
+// fifo.push("mouse");
+// fifo.push("printer");
+// fifo.push("monitor");
+
+// document.write("Devices:<br>");
+// document.write(fifo);
+
+// document.write(`<br><br>out:<br>${fifo.shift()}<br> out:<br>${fifo.shift()}<br> out:<br>${fifo.shift()}<br> out:<br>${fifo.shift()}`);
+
+
+//Question no 14
+// var lifo = [];
+
+// lifo.push("keyboard");
+// lifo.push("mouse");
+// lifo.push("printer");
+// lifo.push("monitor");
+
+// document.write("Devices:<br>");
+// document.write(lifo);
+
+// document.write(`<br><br>out:<br>${lifo.pop()}<br> out:<br>${lifo.pop()}<br> out:<br>${lifo.pop()}<br> out:<br>${lifo.pop()}`);
+
+
 // Question no 15
 // var phoneManufactures = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
 
-// document.write("<select>")
-// document.write("<option>" + phoneManufactures[0] + "</option>")
-// document.write("<option>" + phoneManufactures[1] + "</option>")
-// document.write("<option>" + phoneManufactures[2] + "</option>")
-// document.write("<option>" + phoneManufactures[3] + "</option>")
-// document.write("<option>" + phoneManufactures[4] + "</option>")
-// document.write("<option>" + phoneManufactures[5] + "</option>")
-// document.write("</select>")
+// document.write(`<select>
+
+//              <option>${phoneManufactures[0]}</option>
+//              <option>${phoneManufactures[1]}</option>
+//              <option>${phoneManufactures[2]}</option>
+//              <option>${phoneManufactures[3]}</option>
+//              <option>${phoneManufactures[4]}</option>
+//              <option>${phoneManufactures[5]}</option>
+
+// </select>`)
 
 
 
